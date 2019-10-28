@@ -6,12 +6,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.8.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>cn.pasteme</groupId>
     <artifactId>pasteme-root</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>pasteme-root</name>
     <packaging>pom</packaging>
 
@@ -96,13 +96,5 @@
                 </executions>
             </plugin>
         </plugins>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <excludes>
-                    <exclude>*.yml</exclude>
-                </excludes>
-            </resource>
-        </resources>
     </build>
 </project>
