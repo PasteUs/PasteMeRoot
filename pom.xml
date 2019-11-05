@@ -11,7 +11,7 @@
 
     <groupId>cn.pasteme</groupId>
     <artifactId>pasteme-root</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>pasteme-root</name>
     <packaging>pom</packaging>
 
@@ -42,7 +42,9 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+    </dependencies>
 
+    <dependencyManagement>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -59,7 +61,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-    </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
